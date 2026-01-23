@@ -1,0 +1,43 @@
+.navbar {
+  width: 100%;
+  background: #f9f9f9;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-inner {
+  max-width: 1200px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* BRAND */
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111;
+}
+
+/* MENU */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+}
+
+.navbar-menu li {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  padding-bottom: 4px;
+}
+
+/* hover classic */
+.navbar-menu li:hover {
+  border-bottom: 2px solid #111;
+}

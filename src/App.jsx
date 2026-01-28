@@ -1,11 +1,14 @@
-import Layout from './Layout/Layout'
+import Layout from "./Layout/Layout";
+import AlertButton from "./button/AlertButton";
 
 function App() {
   return (
     <Layout>
-      {/* Your main application content goes here */}
+      {/* <h1>Welcome</h1>
+      <p>Ini konten utama aplikasi gue.</p> */}
+      <AlertButton text="Alert Button" message="Ini pesan alert" />
     </Layout>
-  )
+  );
 }
 
-export default App
+export default App;

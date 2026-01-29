@@ -1,0 +1,55 @@
+.container {
+  width: 260px;
+  margin: 80px 0 0 40px; /* container ke kiri */
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #1e40af;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.table th {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.table td {
+  padding: 6px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.table tr:hover {
+  background-color: #f1f5f9;
+}

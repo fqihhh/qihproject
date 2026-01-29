@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-inner">
-        <p>© {new Date().getFullYear()} Beje. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Faqih.</p>
       </div>
     </footer>
   );
